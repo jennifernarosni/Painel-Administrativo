@@ -8,38 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <main>
-        <div class="contain">
-                
-            <div class="titulo">
-                     <h1>SuaLogo</h1>
-                         <h1 class="amarelo">#</h1>
-            </div>
-             
-            <div class="inputUsuario">
+	<main>
+		<div class="contain">
+			<div class="titulo">
+				<h1>SuaLogo</h1>
+				<h1 class="amarelo">#</h1>
+			</div>
 
-                <form method="post">
+			<form method="post">
+				<div class="inputUsuario">
+					<label for="inputUsuario"></label>
+					<input type="email" name="usuario" id="inputUsuario" placeholder="Usuário" required maxlength="30">
+				</div>
 
-                    <label for="inputUsuario"></label>
+				<div class="inputSenha">
+					<label for="inputSenha"></label>
+					<input type="password" name="senha" id="inputSenha" placeholder="Senha" required>
+				</div>
 
-                        <input type="email" name="usuario" id="inputUsuario" placeholder="Usuário" required maxlength="30">
-                
-            </div>
-
-            <div class="inputSenha">
-                
-                    <label for="inputSenha"></label>
-
-                        <input type="password" name="senha" id="inputSenha" placeholder="Senha" required>
-            </div>
-
-            <div class="inputEnter">
-
-                    <input type="submit" value="Entrar" onclick="logar(); return false">
-            </div>
-                
-                </form>
-        </div>
-    </main>
+				<div class="inputEnter">
+					<input type="submit" value="Entrar" onclick="logar(); return false">
+				</div>
+			</form>
+		</div>
+	</main>
 </body>
 </html>
