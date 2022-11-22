@@ -10,35 +10,42 @@
 <body> 
 
     <main>
-            <div class="texto">
-                <div class="titulo">
-                    
-                <h1>SuaLogo</h1>
-                <h1 class="amarelo">#</h1>
+        <div class="contain">
                 
-                
-                </div>
+            <div class="titulo">
+                     <h1>SuaLogo</h1>
+                         <h1 class="amarelo">#</h1>
+            </div>
              
-                
+            <div class="inputUsuario">
 
-                <div class="usuario">
-                    <form action="login.php" method="post">
-                        <label for="isuario"></label>
-                        <input type="email" name="usuario" id="isuario" placeholder="Usuário" required maxlength="30">
+                <form method="post">
+
+                    <label for="inputUsuario"></label>
+
+                        <input type="email" name="usuario" id="inputUsuario" placeholder="Usuário" required maxlength="30">
                 
-                </div>
-                <div class="senha">
-                
-                        <label for="isenha"></label>
-                        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8">
-                </div>
-                <div class="entrar">
-                    <input type="submit" value="ENTRAR">
-                </div>
-                
-                        </form>
             </div>
 
+            <div class="inputSenha">
+                
+                    <label for="inputSenha"></label>
+
+                        <input type="password" name="senha" id="inputSenha" placeholder="Senha" required>
+            </div>
+
+            <div class="inputEnter">
+
+                    <input type="submit" value="Entrar" onclick="logar(); return false">
+            </div>
+                
+                </form>
+        </div>
     </main>
+
+
+
+
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-                        /*GERAL*/
+ /*GERAL*/
 
         *{
         margin: 0;
@@ -8,10 +8,6 @@
        
         }
 
-        body{
-            display: fixed;
-           
-        }
 
         main{
             display: flex;
@@ -34,28 +30,23 @@
             padding-bottom: 20px; 
             display: flex;
             justify-content: center;
-            align-items: center;
-
-
-        
+            align-items: center;    
         }
 
         h1.amarelo{
             color:#FFD658;
             font-weight: 900;
-            font-size: 60px;
-           
-            
+            font-size: 60px;  
         }
 
 
-        div.usuario{
+        div.inputUsuario{
         
             text-align: center ;
             padding: 10px;   
         }
         
-        div.usuario input{
+        div.inputUsuario input{
             border-radius: 3px;
             padding: 10px;
             border: 0;
@@ -63,13 +54,13 @@
             background-color: rgb(212, 209, 209);
         }
         
-        div.senha{
+        div.inputSenha{
             text-align: center ;
             padding: 10px;  
         }
         
         
-        div.senha input{
+        div.inputSenha input{
             border-radius: 3px;
             padding: 10px;
             border: 0;
@@ -77,13 +68,13 @@
             background-color: rgb(212, 209, 209);
         }
         
-        div.entrar{
+        div.inputEnter{
             text-align: center ;
             padding: 15px;
         }
         
         
-        div.entrar input{
+        div.inputEnter input{
             border-radius: 3px;
             padding: 10px;
             border: 0;
@@ -100,7 +91,7 @@
 
 
 
-        @media screen and (max-width: 768px) /*MOBILE*/{
+ /*MOBILE*/@media screen and (max-width: 768px) {
 
         body{
             background-color: white;
@@ -108,10 +99,10 @@
         }
 
 
-        @media screen and (min-width: 768px) /*TELA DESKETOP*/{
+/*DESKETOP*/@media screen and (min-width: 768px) {
 
         body{
-            background: url(photo-1498049860654-af1a5c566876_0.jpg) no-repeat;
+            background: url(../Painel-Administrativo/imagens/fundo.png.jpg) no-repeat;
             background-size: cover;
             height: 100vh;
             background-position: center center;
