@@ -7,7 +7,44 @@
     <title>Página de Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body> 
+	<main>
+		<div class="contain">
+			<div class="titulo">
+				<h1>SuaLogo</h1>
+				<h1 class="amarelo">#</h1>
+			</div>
+
+			<form method="post">
+				<div class="inputUsuario">
+					<label for="login"></label>
+					<input type="text" id="login" placeholder="Usuário" required>
+				</div>
+
+				<div class="inputSenha">
+					<label for="senha"></label>
+					<input type="password"  id="senha" placeholder="Senha" required>
+				</div>
+
+				<div class="inputEnter">
+					<input type="submit" value="Entrar" onclick="logar(); return false">
+				</div>
+			</form>
+		</div>
+	</main>
+
+		<script>
+			function logar(){
+
+				var login=document.getElementById('login').value;
+				var senha=document.getElementById('senha').value;
+
+				if(login == "felipe.motaeffting@gmail.com" && senha =="0123456"){
+						location.href = "paginas/home/home.html"; 
+				}else{
+					alert('Usuario ou senha incorretos')
+				}
+			}
+		</script>
 </body>
 </html>
