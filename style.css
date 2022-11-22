@@ -102,7 +102,7 @@
 /*DESKETOP*/@media screen and (min-width: 768px) {
 
         body{
-            background: url(../Painel-Administrativo/imagens/fundo.png.jpg) no-repeat;
+            background: url(../Painel-Administrativo/imagens/fundo.jpg) no-repeat;
             background-size: cover;
             height: 100vh;
             background-position: center center;
