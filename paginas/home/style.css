@@ -12,7 +12,7 @@ main{
 }
 
 /*HEADER*/
-section.container1{
+section.container{
   height: 100%;
   width: 100%;
   background-color: white;
@@ -101,7 +101,7 @@ menu ul li:hover{
   color: white;
 }
 
-section.container2{
+section.container-box{
   display: flex;
   justify-content: center;
   flex-direction: column;   
