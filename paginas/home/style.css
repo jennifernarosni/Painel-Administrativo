@@ -107,6 +107,7 @@ section.container-box{
   flex-direction: column;   
   background-color: #F7F8FC;
   width: 100%;
+  cursor: pointer;
 }
 
 /*DASHBOARD*/
